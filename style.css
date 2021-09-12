@@ -1,29 +1,42 @@
 body {
   box-sizing: border-box;
+  background-color: #fff1e6;
+}
+.container-fluid {
+  background-color: #ffe6a7;
+  margin-bottom: -10px;
+  margin-top: -30px;
 }
 main {
   padding: 0 40px;
+  /* border-right: solid; */
 }
 .columns {
   display: flex;
 }
 .left-column {
   width: 42%;
+  background-color: #15616d;
 }
 .right-column {
   width: 58%;
   padding: 40px;
+  background-color: #faedcd;
 }
 #h1 {
+  margin-top: 20px;
   letter-spacing: 0.8rem;
   text-align: center;
 }
+
 #cv-foto {
+  margin-top: 20px;
+  object-fit: cover;
   margin-left: 25%;
   margin-bottom: 10px;
   width: 200px;
-  height: auto;
-  border-radius: 70%;
+  height: 200px;
+  border-radius: 50%;
 }
 .centred {
   margin: 20px auto;
@@ -33,6 +46,14 @@ footer {
   display: flex;
   align-items: center;
   padding: 20px;
+}
+
+.left-column div {
+  font-weight: bold;
+}
+
+.contacts {
+  margin-top: 40px;
 }
 .contacts h2 {
   text-align: center;
@@ -49,7 +70,10 @@ footer {
 .contacts li {
   list-style-type: none;
 }
-
+.contacts a {
+  font-weight: normal;
+  color: beige;
+}
 .skills h2 {
   text-align: center;
   margin-bottom: 20px;
@@ -58,10 +82,27 @@ footer {
 
 .skills li {
   margin-bottom: 10px;
-  list-style-type: disc;
+  list-style-type: none;
+  font-size: 16px;
 }
 .progress {
   margin-bottom: 10px;
+}
+
+.right-column h2 {
+  font-size: 1.5rem;
+  text-transform: uppercase;
+}
+.right-column section {
+  margin-bottom: 20px;
+}
+.right-column a {
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: normal;
+}
+.right-column p {
+  font-size: 20px;
 }
 .about-me {
   text-align: justify;
@@ -72,6 +113,10 @@ footer {
 .education p {
   margin-bottom: 10px;
 }
+
+.education a {
+  color: darkred;
+}
 .languages {
   text-align: justify;
 }
@@ -80,4 +125,13 @@ footer {
 }
 .code-example p {
   text-align: justify;
+}
+footer {
+  background-color: #ffe6a7;
+  margin-bottom: -20px;
+  display: flex;
+  justify-content: space-between;
+}
+#copyright {
+  font-weight: 600;
 }
