@@ -1,0 +1,28 @@
+body {
+  box-sizing: border-box;
+}
+main {
+  padding: 0 40px;
+}
+.columns {
+  display: flex;
+}
+.left-column {
+  width: 42%;
+}
+.right-column {
+  width: 58%;
+  padding: 40px;
+}
+#h1 {
+  text-align: right;
+}
+#cv-foto {
+  width: 300px;
+  height: auto;
+  border-radius: 70%;
+}
+.centred {
+  margin: 20px auto;
+  width: 1024px;
+}
