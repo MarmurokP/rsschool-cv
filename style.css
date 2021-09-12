@@ -63,3 +63,21 @@ footer {
 .progress {
   margin-bottom: 10px;
 }
+.about-me {
+  text-align: justify;
+}
+.education {
+  text-align: justify;
+}
+.education p {
+  margin-bottom: 10px;
+}
+.languages {
+  text-align: justify;
+}
+.languages p {
+  margin-bottom: 10px;
+}
+.code-example p {
+  text-align: justify;
+}
